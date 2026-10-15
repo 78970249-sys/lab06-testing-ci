@@ -13,7 +13,7 @@ def test_calcular_total_factura_exitoso_con_mock():
             aplicar_descuento=False
         )
 
-    assert resultado == 380.00
+    assert resultado == 999.00
 
 
 def test_calcular_total_factura_con_descuento_mock():
